@@ -1,0 +1,40 @@
+/* Universal Selector */
+* {
+  margin: 100;
+  padding: 0;
+  font-family: Arial;
+}
+
+/* Element Selector*/
+h1 {
+  position: relative;
+}
+
+/* Image & Caption */
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 520px;
+  margin: auto;
+}
+
+img {
+  max-width: 520px;
+  max-height: 450px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+/* Header */
+.link {
+  position: sticky;
+  top: 20px;
+}
